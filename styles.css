@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.clock-container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    margin: 30px 10px;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.time-container {
+    justify-content: space-around;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+
+img {
+    height: 50vh;
+}
